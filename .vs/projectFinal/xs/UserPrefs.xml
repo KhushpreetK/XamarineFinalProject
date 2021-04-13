@@ -1,0 +1,58 @@
+﻿<Properties StartupConfiguration="{F4913A37-AEDB-4579-B8A5-DB3D00101E46}|Default">
+  <MonoDevelop.Ide.ItemProperties.projectFinal.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.12B5814B-2EC2-416F-A8A6-4DD7EECAB35D" />
+  <MonoDevelop.Ide.ItemProperties.projectFinal.Android PreferredExecutionTarget="Android.Nexus_S_API_22" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="projectFinal/App.xaml.cs">
+    <Files>
+      <File FileName="projectFinal/MainPage.xaml.cs" Line="30" Column="92" />
+      <File FileName="projectFinal/MainPage.xaml" />
+      <File FileName="projectFinal/ThemePage.xaml" />
+      <File FileName="projectFinal/ThemePage.xaml.cs" />
+      <File FileName="projectFinal/App.xaml" />
+      <File FileName="projectFinal/App.xaml.cs" Line="13" Column="55" />
+      <File FileName="projectFinal.iOS/Main.cs" />
+      <File FileName="projectFinal/SelectType.xaml" />
+      <File FileName="projectFinal/SelectType.xaml.cs" />
+      <File FileName="projectFinal/Model/Global.cs" />
+      <File FileName="projectFinal/QuestionsPage.xaml" />
+      <File FileName="projectFinal/QuestionsPage.xaml.cs" />
+      <File FileName="projectFinal/Model/Computer.cs" />
+      <File FileName="projectFinal/projectFinal.csproj" />
+      <File FileName="projectFinal/FirebaseHelper.cs" />
+      <File FileName="projectFinal/ResultPage.xaml" Line="14" Column="1" />
+      <File FileName="projectFinal/ResultPage.xaml.cs" />
+      <File FileName="projectFinal/Model/Score.cs" />
+      <File FileName="projectFinal/RecordsPage.xaml" />
+      <File FileName="projectFinal/RecordsPage.xaml.cs" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="projectFinal" expanded="True">
+            <Node name="projectFinal" expanded="True">
+              <Node name="Model" expanded="True" />
+              <Node name="App.xaml" expanded="True">
+                <Node name="App.xaml.cs" selected="True" />
+              </Node>
+              <Node name="QuestionsPage.xaml" expanded="True" />
+              <Node name="RecordsPage.xaml" expanded="True" />
+              <Node name="ResultPage.xaml" expanded="True" />
+              <Node name="SelectType.xaml" expanded="True" />
+              <Node name="ThemePage.xaml" expanded="True" />
+            </Node>
+            <Node name="projectFinal.iOS" expanded="True">
+              <Node name="Resources" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint enabled="false" file="/Users/khushi/Downloads/LasalleCollege/sem6/multiplatform/projectFinal/projectFinal/projectFinal.csproj" relfile="projectFinal/projectFinal.csproj" line="24" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

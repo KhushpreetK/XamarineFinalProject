@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="projectFinal.ThemePage">
+    <StackLayout BackgroundColor="Black">
+        <StackLayout Orientation="Vertical" Margin="20">
+        <Image BackgroundColor="MediumPurple" HorizontalOptions="CenterAndExpand" Source="qmark.png" WidthRequest="100" HeightRequest="100"/>
+        </StackLayout>
+
+        <StackLayout Margin="5">
+            <Label  Margin="10" FontAttributes="Italic" FontSize="Subtitle" TextColor="MediumPurple" HorizontalOptions="CenterAndExpand" Text="There are three types of Quiz. Each contains 3 True/False questions. To see the record, first you need to play the game. You can not alter the answer of the previous questions so BE CAREFULL..."/>
+            <Entry Margin="30" x:Name="enterName" Placeholder="Enter your name" PlaceholderColor="Black" BackgroundColor="MediumPurple" TextColor="Black"/>
+            <Button Margin="30" Text="Select quiz!" BackgroundColor="MediumPurple" TextColor="Black" Padding="5" Clicked="Button_Clicked"/>
+            <Button Margin="30" x:Name="btnSeeRecord" Text="See Record" BackgroundColor="MediumPurple" TextColor="Black" Padding="5" Clicked="btnSeeRecord_Clicked"/>
+        </StackLayout>
+
+    </StackLayout>
+    
+    
+</ContentPage>

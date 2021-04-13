@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="projectFinal.QuestionsPage">
+    <StackLayout BackgroundColor="Black" Padding="15">
+        <StackLayout Margin="15">
+            <Label x:Name="label0" Text="{Binding}" TextColor="MediumPurple" FontAttributes="Bold"/>
+             <Button x:Name="btn1True" Text="True" FontSize="Medium" Clicked="btn1True_Clicked" BackgroundColor="SpringGreen" TextColor="Black" HorizontalOptions="StartAndExpand" HeightRequest="25" WidthRequest="100"/>
+            <Button x:Name="btn1False" Text="False" Clicked="btn1False_Clicked" BackgroundColor="SpringGreen" TextColor="Black" HorizontalOptions="StartAndExpand" HeightRequest="25" WidthRequest="100" />
+        </StackLayout>
+
+        <StackLayout Margin="15">
+            <Label x:Name="label1" Text="{Binding}" TextColor="MediumPurple" FontAttributes="Bold"/>
+      
+             <Button x:Name="btn2True" Text="True" FontSize="Medium" Clicked="btn2True_Clicked" BackgroundColor="SpringGreen" TextColor="Black" HorizontalOptions="StartAndExpand" HeightRequest="25" WidthRequest="100"/>
+            <Button x:Name="btn2False" Text="False" Clicked="btn2False_Clicked" BackgroundColor="SpringGreen" TextColor="Black" HorizontalOptions="StartAndExpand" HeightRequest="25" WidthRequest="100"/>
+        </StackLayout>
+
+        <StackLayout Margin="15">
+            <Label x:Name="label2" Text="{Binding}" TextColor="MediumPurple" FontAttributes="Bold"/>
+             <Button x:Name="btn3True" Text="True" FontSize="Medium" Clicked="btn3True_Clicked" BackgroundColor="SpringGreen" TextColor="Black" HorizontalOptions="StartAndExpand" HeightRequest="25" WidthRequest="100"/>
+            <Button x:Name="btn3False" Text="False" Clicked="btn3False_Clicked" BackgroundColor="SpringGreen" TextColor="Black" HorizontalOptions="StartAndExpand" HeightRequest="25" WidthRequest="100"/>
+        </StackLayout>
+
+
+        <StackLayout Margin="50">
+            <Button Margin="70" x:Name="btnSubmit" Text="SUBMIT" FontAttributes="Bold" TextColor="Black" Clicked="btnSubmit_Clicked" BackgroundColor="MediumPurple" HorizontalOptions="Fill"/>
+        </StackLayout>
+    </StackLayout>
+ 
+</ContentPage>

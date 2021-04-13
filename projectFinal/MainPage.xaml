@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="projectFinal.MainPage">
+    <StackLayout BackgroundColor="Black">
+        <StackLayout Margin="30">
+            <Label Text="KQuiz!" TextColor="SpringGreen" BackgroundColor="Black" TextDecorations="Underline" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </StackLayout>
+
+        <StackLayout Margin="15" Orientation="Vertical" VerticalOptions="CenterAndExpand">
+        <Label TextColor="SpringGreen" Text="Sign-up" TextTransform="Uppercase" FontAttributes="Bold"/>
+        <Entry Placeholder="User's new Email" x:Name="UserNewEmail" BackgroundColor="SpringGreen"/>
+        <Entry Placeholder="User's new Password" x:Name="UserNewPassword" BackgroundColor="SpringGreen"/>
+        <Button x:Name="sinupButton" Text="Signup" TextTransform="Uppercase" Margin="10" Padding="3" HorizontalOptions="Center" BackgroundColor="SpringGreen" TextColor="Black" Clicked="sinupButton_Clicked"/>
+        <BoxView HeightRequest="5" Margin="5"/>
+        <Label TextColor="SpringGreen" Text="Login" TextTransform="Uppercase" FontAttributes="Bold"/>
+        <Entry Placeholder="Login Email" x:Name="UserEmail" BackgroundColor="SpringGreen"/>
+        <Entry Placeholder="Login Password" x:Name="UserPassword" BackgroundColor="SpringGreen"/>
+        <Button x:Name="loginButton" Text="Login" TextTransform="Uppercase" Margin="10" Padding="6" HorizontalOptions="Center" BackgroundColor="SpringGreen" TextColor="Black" Clicked="loginButton_Clicked"/>
+    </StackLayout>
+    </StackLayout>
+
+    
+
+</ContentPage>

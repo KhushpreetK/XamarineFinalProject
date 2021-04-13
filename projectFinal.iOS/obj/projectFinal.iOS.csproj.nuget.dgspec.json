@@ -1,0 +1,142 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/khushi/Downloads/LasalleCollege/sem6/multiplatform/projectFinal/projectFinal.iOS/projectFinal.iOS.csproj": {}
+  },
+  "projects": {
+    "/Users/khushi/Downloads/LasalleCollege/sem6/multiplatform/projectFinal/projectFinal.iOS/projectFinal.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/khushi/Downloads/LasalleCollege/sem6/multiplatform/projectFinal/projectFinal.iOS/projectFinal.iOS.csproj",
+        "projectName": "projectFinal.iOS",
+        "projectPath": "/Users/khushi/Downloads/LasalleCollege/sem6/multiplatform/projectFinal/projectFinal.iOS/projectFinal.iOS.csproj",
+        "packagesPath": "/Users/khushi/.nuget/packages/",
+        "outputPath": "/Users/khushi/Downloads/LasalleCollege/sem6/multiplatform/projectFinal/projectFinal.iOS/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/khushi/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "/Users/khushi/Downloads/LasalleCollege/sem6/multiplatform/projectFinal/projectFinal/projectFinal.csproj": {
+                "projectPath": "/Users/khushi/Downloads/LasalleCollege/sem6/multiplatform/projectFinal/projectFinal/projectFinal.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "/Users/khushi/Downloads/LasalleCollege/sem6/multiplatform/projectFinal/projectFinal/projectFinal.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/khushi/Downloads/LasalleCollege/sem6/multiplatform/projectFinal/projectFinal/projectFinal.csproj",
+        "projectName": "projectFinal",
+        "projectPath": "/Users/khushi/Downloads/LasalleCollege/sem6/multiplatform/projectFinal/projectFinal/projectFinal.csproj",
+        "packagesPath": "/Users/khushi/.nuget/packages/",
+        "outputPath": "/Users/khushi/Downloads/LasalleCollege/sem6/multiplatform/projectFinal/projectFinal/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/khushi/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "FirebaseAuthentication.net": {
+              "target": "Package",
+              "version": "[3.7.0, )"
+            },
+            "FirebaseDatabase.net": {
+              "target": "Package",
+              "version": "[4.0.6, )"
+            },
+            "Microsoft.Net.Http": {
+              "target": "Package",
+              "version": "[2.2.29, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.6.1, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2012, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.201/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

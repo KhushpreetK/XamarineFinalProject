@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="projectFinal.SelectType">
+   <StackLayout BackgroundColor="Black">
+      <StackLayout Margin="30">
+            <Label Text="KQuiz!" TextColor="SpringGreen" BackgroundColor="Black" TextDecorations="Underline" FontAttributes="Bold" FontSize="Large" HorizontalOptions="Center" VerticalOptions="Center"/>
+        </StackLayout>
+      <ListView VerticalOptions="FillAndExpand" Margin="100" HasUnevenRows="True" BackgroundColor="SpringGreen" x:Name="selectTypeView" ItemSelected="selectTypeView_ItemSelected">
+           <ListView.ItemTemplate>
+               <DataTemplate>
+                    <TextCell TextColor="Black" Text="{Binding}"/>
+               </DataTemplate>
+           </ListView.ItemTemplate>
+       </ListView>
+   </StackLayout>
+</ContentPage>

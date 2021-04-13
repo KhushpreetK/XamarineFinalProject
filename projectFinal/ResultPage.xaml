@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="projectFinal.ResultPage">
+   <StackLayout BackgroundColor="Black">
+       <Label Margin="30" Text="Your final score out of 3 is:" TextColor="SpringGreen" FontSize="Large" HorizontalOptions="Center"/>
+       <Label Margin="30" HorizontalOptions="FillAndExpand" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" x:Name="lblScore" Text="{Binding}" TextColor="Black" BackgroundColor="SpringGreen"/>
+       <Button Margin="30" x:Name="btnPlayAgain" Text="Play Again!" TextColor="Black"  BackgroundColor="SpringGreen" HorizontalOptions="StartAndExpand" FontAttributes="Bold" Clicked="btnPlayAgain_Clicked"/>
+       <Image Margin="50" VerticalOptions="EndAndExpand"  Source="TK.jpeg" WidthRequest="150" HeightRequest="150"/>
+
+   </StackLayout>
+</ContentPage>

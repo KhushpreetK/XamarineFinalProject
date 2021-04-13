@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="projectFinal.RecordsPage">
+    <StackLayout BackgroundColor="Black">
+        <Label Margin="20" Text="RECORD" FontSize="Large" FontAttributes="Bold" TextColor="MediumPurple" HorizontalOptions="Center" TextDecorations="Underline"/>
+        <Label Margin="50,30,0,0" x:Name="playerName" Text="{Binding}" FontAttributes="Italic" FontSize="Subtitle" TextColor="SpringGreen" HorizontalOptions="Start"/>
+        <ListView Margin="50,0,50,50" BackgroundColor="SpringGreen" x:Name="recordlView" >
+           <ListView.ItemTemplate>
+               <DataTemplate>
+                   <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Orientation="Horizontal">
+                                <Label  Margin="10" HorizontalOptions="StartAndExpand" Text="{Binding category}" TextColor="Black"  />
+                                <Label Margin="10" HorizontalOptions="EndAndExpand" Text="{Binding finalScore}" TextColor="Black"  />
+                            </StackLayout>
+
+                        </ViewCell.View>
+                   </ViewCell>
+               </DataTemplate>
+           </ListView.ItemTemplate>
+       </ListView>
+
+        
+            <Button Margin="100" Padding="5" Clicked="btnBackToThemePage_Clicked" x:Name="btnBackToThemePage" Text="Back" FontAttributes="Bold" BackgroundColor="SpringGreen" TextColor="Black" />
+       
+    </StackLayout>
+</ContentPage>
